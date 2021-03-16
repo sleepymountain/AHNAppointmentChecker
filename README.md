@@ -22,10 +22,14 @@ ToastNotifier
 AutoPy2Exe
 ```
 
-## Todo:
-- [ ] Add colorama to make it easier to see whether appointments are/were available in the console window
-- [ ] Add a logging system to log when appointments were available, making it easier to predict.
-- [ ] 12 hour time instead of 24 hour time?
+## Changelog:
+```
+New in v1.5b
+- Better UI Formatting
+- Colorama! Output of console now colored.
+- 12 hour time, instead of 24 hour time.
+- Logging: All results are outputted into \log\log.txt (for easier analysis of appointment posting times)
+```
 
 ## Known Bugs:
 
