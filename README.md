@@ -28,5 +28,5 @@ AutoPy2Exe
 
 Since appointments were not available at the time of creation, it needs more testing.
 
-
+## Bug Reporting
 Feel free to open any issues to report bugs :)
