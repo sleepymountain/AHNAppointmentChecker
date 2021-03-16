@@ -10,8 +10,6 @@ from win10toast import ToastNotifier
 import sched, time
 from datetime import datetime
 
-now = datetime.now()
-dt_string = now.strftime("%d/%m/%Y %H:%M")
 toaster = ToastNotifier()
 s = sched.scheduler(time.time, time.sleep)
 
@@ -20,9 +18,11 @@ chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
 chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
+
 def start():
 
-    print(f'AHN Appointment Checker v1.2b | by caverin')
+    print(f'AHN Appointment Checker v1.2b | by caverin/sleepymountain')
+    print(f'https://github.com/sleepymountain/AHNAppointmentChecker')
     print(f'')
     print(f'Running appointment checker..')
     print(f'')
@@ -35,6 +35,8 @@ if __name__ == '__main__':
 
 def load_page():
     with webdriver.Chrome(options=chrome_options) as driver:
+        now = datetime.now()
+        dt_string = now.strftime("%m/%d/%Y %H:%M")
         print(f'Checking for new appointments..')
         wait = WebDriverWait(driver, 10)
         driver.get("https://www.ahn.org/coronavirus/vaccine/schedule.html")
