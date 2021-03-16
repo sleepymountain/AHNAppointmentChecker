@@ -22,8 +22,8 @@ AutoPy2Exe
 
 
 ## Known Bugs:
-```
-Time is not updating, because it declared at the namespace, fixing in next release.
+
+[Time is not updating, because it declared at the namespace, fixing in next release.](https://github.com/sleepymountain/AHNAppointmentChecker/issues/1)
 Since appointments were not available at the time of creation, it needs more testing.
-```
+
 
