@@ -6,6 +6,7 @@ and when it finds them it will send a windows notification and open the website 
 
 ## Installation:
 > Everything is packed into the binary release so that you don't have to install any dependencies.
+> 
 > Extract to a directory and run AHN Appointment Checker v1.2b.exe
 
 Uses External Dependencies:
