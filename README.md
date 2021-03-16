@@ -7,7 +7,7 @@ and when it finds them it will send a windows notification and open the website 
 
 
 ## Installation:
-> Download and Extract the [newest release](https://github.com/sleepymountain/AHNAppointmentChecker/releases/tag/1.3b)
+> Download and Extract the [newest release](https://github.com/sleepymountain/AHNAppointmentChecker/releases/tag/1.5b)
 > 
 > Everything is packed into the binary release so that you don't have to install any dependencies.
 > 
