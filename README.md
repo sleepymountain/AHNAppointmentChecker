@@ -7,9 +7,11 @@ and when it finds them it will send a windows notification and open the website 
 
 
 ## Installation:
+> Download and Extract the [newest release](https://github.com/sleepymountain/AHNAppointmentChecker/releases/tag/1.3b)
+> 
 > Everything is packed into the binary release so that you don't have to install any dependencies.
 > 
-> Extract to a directory and run AHN Appointment Checker v1.2b.exe
+> Extract to a directory and run AHN Appointment Checker v1.3b.exe
 
 
 ## Uses External Dependencies:
