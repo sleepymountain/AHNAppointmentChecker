@@ -9,5 +9,6 @@ Everything is packed into the binary release so that you don't have to install a
 Uses External Dependencies:
 Selenium,
 Chromedriver,
-ToastNotifier
+ToastNotifier,
+AutoPy2Exe
 
