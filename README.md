@@ -12,3 +12,9 @@ Chromedriver,
 ToastNotifier,
 AutoPy2Exe
 
+Known Bugs:
+'''
+Time is not updating, because it declared at the namespace, fixing in next release.
+Since appointments were not available at the time of creation, it needs more testing.
+'''
+
