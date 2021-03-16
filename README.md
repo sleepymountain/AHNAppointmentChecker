@@ -28,6 +28,7 @@ New in v1.5b
 - Better UI Formatting
 - 12 hour time, instead of 24 hour time.
 - Logging: All results are outputted into \log\log.txt (for easier analysis of appointment posting times)
+- Added and then removed colorama,, due to issues after compiling to an executable.
 ```
 
 ## Known Bugs:
