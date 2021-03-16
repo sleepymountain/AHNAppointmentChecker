@@ -1,4 +1,4 @@
-# AHNAppointmentChecker
+# AHN Appointment Checker
 ###### Checks for Appointments for COVID Vaccines every 5 minutes so you don't have to.
 
 
