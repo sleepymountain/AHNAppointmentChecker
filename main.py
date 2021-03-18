@@ -15,7 +15,7 @@ from colorama import Fore
 toaster = ToastNotifier()
 s = sched.scheduler(time.time, time.sleep)
 
-url = "https://www.ahn.org/coronavirus/vaccine/schedule.html"
+url = "https://www.ahn.org/coronavirus/vaccine/schedule/eligible.html"
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
 chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
