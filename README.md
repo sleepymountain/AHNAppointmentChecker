@@ -36,8 +36,7 @@ New in v1.5b
 ```
 
 ## Known Bugs:
-Crashes when appointments, are found -- currently fixing this. Problem due to if statement instead of using try with exceptions.
-Since appointments were not available at the time of creation, it needs more testing.
+None as of v1.6b :)
 
 ## Bug Reporting
 Feel free to open any issues to report bugs :)
