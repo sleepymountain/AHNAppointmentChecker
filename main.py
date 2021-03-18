@@ -7,12 +7,12 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 import logging
 from selenium.webdriver.remote.remote_connection import LOGGER
-from win10toast import ToastNotifier
 import sched, time
 from datetime import datetime
 from colorama import Fore
+import plyer.platforms.win.notification
+from plyer import notification
 
-toaster = ToastNotifier()
 s = sched.scheduler(time.time, time.sleep)
 
 url = "https://www.ahn.org/coronavirus/vaccine/schedule/eligible.html"
@@ -67,7 +67,7 @@ def load_page():
             print("[i] If the page loads and shows that there are no appointments, open in a private window.")
             logging.info(' | There might be appointments available!')
             print(f'')
-            toaster.show_toast("AHN Appointment Checker", "There are appointments available!")
+            notification.notify("AHN Appointment Checker", "There are appointments available!")
             os.startfile(url)
         else:
             print(dt_string, " | There are no appointments available")
