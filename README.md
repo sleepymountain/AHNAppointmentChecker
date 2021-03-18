@@ -7,11 +7,11 @@ and when it finds them it will send a windows notification and open the website 
 
 
 ## Installation:
-> Download and Extract the [newest release](https://github.com/sleepymountain/AHNAppointmentChecker/releases/tag/1.5b)
+> Download and Extract the [newest release](https://github.com/sleepymountain/AHNAppointmentChecker/releases/tag/1.6b)
 > 
 > Everything is packed into the binary release so that you don't have to install any dependencies.
 > 
-> Extract to a directory and run AHN Appointment Checker v1.5b.exe
+> Extract to a directory and run AHN Appointment Checker v1.6b.exe
 
 
 ## Uses External Dependencies:
@@ -24,6 +24,9 @@ AutoPy2Exe
 
 ## Changelog:
 ```
+New in 1.6b:
+- Fatal bug fix (Crashed when appointments were found. Problem was due to if statement instead of using try with exceptions.)
+
 New in v1.5b
 - Better UI Formatting
 - 12 hour time, instead of 24 hour time.
