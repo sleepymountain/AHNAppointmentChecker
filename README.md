@@ -18,7 +18,7 @@ and when it finds them it will send a windows notification and open the website 
 ```
 Selenium
 Chromedriver
-ToastNotifier
+Plyer
 AutoPy2Exe
 ```
 
