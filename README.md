@@ -26,6 +26,7 @@ AutoPy2Exe
 ```
 New in 1.6b:
 - Fatal bug fix (Crashed when appointments were found. Problem was due to if statement instead of using try with exceptions.)
+- Removed ToastNotifier and Replaced with Plyer (due to issues during build)
 
 New in v1.5b
 - Better UI Formatting
